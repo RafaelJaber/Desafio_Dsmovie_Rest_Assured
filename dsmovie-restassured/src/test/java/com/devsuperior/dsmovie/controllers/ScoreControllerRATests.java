@@ -1,8 +1,10 @@
 package com.devsuperior.dsmovie.controllers;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-public class ScoreControllerRA {
+@Tag("RA")
+public class ScoreControllerRATests {
 	
 	@Test
 	public void saveScoreShouldReturnNotFoundWhenMovieIdDoesNotExist() throws Exception {		
